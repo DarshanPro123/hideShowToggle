@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(20, 18, 36);
+  color: white;
+}
+
+::selection {
+  background-color: aqua;
+  color: black;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.btns button:hover {
+  background-color: aqua;
+  color: black;
+
+}
